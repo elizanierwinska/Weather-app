@@ -11,7 +11,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease-in-out;
 }
 
 .card{
@@ -20,6 +19,7 @@ body {
   background-color: aliceblue;
   border-radius: 20px;
   box-shadow: 0 0 10px #1c6bac;
+  transition: all 0.5s ease-in-out;
 }
 
 .search-bar {
@@ -27,6 +27,7 @@ body {
   position: relative;
   margin-top: 50px;
   margin-left: 50px;
+  transition: all 0.5s ease-in-out;
 }
 
 .city-input {
@@ -36,6 +37,7 @@ body {
   font-size: 15px;
   box-shadow: 0 0 10px #AFD5FA;
   border-color: transparent;
+  transition: all 0.5s ease-in-out;
 }
 
 .city-input:focus {
@@ -52,6 +54,7 @@ body {
   border-radius: 50px;
   box-shadow: 0 0 10px #AFD5FA;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
 }
 
 .search-bar .img:hover {
@@ -68,11 +71,13 @@ body {
 .temp-info img {
   width: 250px;
   height: 250px;
+  transition: all 0.5s ease-in-out;
 }
 
 .temp-info h1{
   font-size: 130px;
   color: rgb(67, 67, 67);
+  transition: all 0.5s ease-in-out;
 }
 
 .city-name {
@@ -86,6 +91,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
+  transition: all 0.5s ease-in-out;
 }
 
 .humidity-info img, .wind-info img{
@@ -105,6 +111,7 @@ body {
 
 .wind-info {
   margin-left: -50px;
+  transition: all 0.5s ease-in-out;
 }
 
 .all-weather-info {
@@ -156,7 +163,7 @@ body {
     margin-bottom: 20px;
   }
   .wind-info {
-    margin-left: 30px;
+    margin-left: 28px;
   }
   
 }
