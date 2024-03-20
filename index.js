@@ -21,6 +21,8 @@ async function fetchData(city) {
     window.alert("You have to write a valid city name!")
   } 
 
+  document.querySelector('.title').style.display = "none";
+
   temperature.innerHTML = Math.round(data.main.temp) + '°';
   cityName.innerHTML = data.name;
   humidity.innerHTML = Math.round(data.main.humidity) + '%';
