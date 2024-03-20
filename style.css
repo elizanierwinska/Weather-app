@@ -13,7 +13,7 @@ body {
 }
 
 .card{
-  height: 600px;
+  height: 200px;
   width:500px;
   background-color: aliceblue;
   border-radius: 20px;
@@ -104,6 +104,14 @@ body {
 .wind-info {
   margin-left: -50px;
 }
+
+.all-weather-info {
+  display: none;
+}
+
+
+
+
 
 
 
