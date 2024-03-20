@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .card{
@@ -112,4 +113,50 @@ body {
 
 .title {
   margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .card {
+    width: 320px;
+  }
+
+  .search-bar {
+    margin-left: 35px;
+  }
+
+  .search-bar .img {
+    right: 35px;
+    padding: 8px 30px;
+  }
+
+  .city-input {
+    width: 225px;
+  }
+
+  .temp-info img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .temp-info h1 {
+    font-size: 80px;
+  }
+
+  .other-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .other-info .humidity-info{
+    margin-bottom: 20px;
+  }
+  .wind-info {
+    margin-left: 30px;
+  }
+  
 }
