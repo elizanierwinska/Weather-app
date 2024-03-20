@@ -16,7 +16,7 @@ body {
   height: 600px;
   width:500px;
   background-color: aliceblue;
-  border-radius: 50px;
+  border-radius: 20px;
   box-shadow: 0 0 10px #1c6bac;
 }
 
@@ -55,4 +55,55 @@ body {
 .search-bar .img:hover {
   background-color: #2999f5;
 }
+
+.temp-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
+}
+
+.temp-info img {
+  width: 250px;
+  height: 250px;
+}
+
+.temp-info h1{
+  font-size: 130px;
+  color: rgb(67, 67, 67);
+}
+
+.city-name {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(67, 67, 67);
+}
+
+.other-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.humidity-info img, .wind-info img{
+  width: 50px;
+  height: 50px;
+  background-color: #c7e1fa;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.humidity-info, .wind-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wind-info {
+  margin-left: -50px;
+}
+
+
 
