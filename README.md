@@ -23,5 +23,4 @@ Weather app is a simple tool for showing the current weather all around the worl
 * JavaScript
 * HTML
 * CSS
-* OpenWeatherMap API
-
+* <a href="https://openweathermap.org/api">OpenWeatherMap API </a>
