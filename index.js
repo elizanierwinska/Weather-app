@@ -8,11 +8,11 @@ const windSpeed = document.querySelector('.wind');
 const error = document.querySelector('.error');
 
 async function fetchData(city) {
-  const weatherDataURL = `https://api.openweathermap.org/data/2.5/weather?appid=${process.env.API_KEY}&units=metric&q=`;
+  const API_KEY = 'a51b5cf6063e763e2e7e7ee295eccf2b';
+  const weatherDataURL = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric&q=`;
 
   let response = await fetch(weatherDataURL + city);
   let data = await response.json();
-  console.log(data);
 
   if (data.cod === '404') {
     window.alert('You have to write a valid city name!');
