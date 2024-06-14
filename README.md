@@ -8,9 +8,14 @@ Weather app
 
 ![screenshot](./images/weather-app.png)
 
+## Before you run the app
+
+To fetch the data from the API create an API key and provide it in the index.js file. You can do it on the <a href="https://openweathermap.org/api">OpenWeatherMap API </a> website.
+
 ## Run the App
 
-In the project directory, you can run: 
+In the project directory, you can run:
+
 ```sh
 open index.html
 ```
@@ -20,7 +25,8 @@ open index.html
 Weather app is a simple tool for showing the current weather all around the world. By typing the name of the country or city in a searchbar you can see the temperature, humidity and wind speed in given location. This project might be useful if you are searching for current data regarding weather in specific location.
 
 ## This project was built with:
-* JavaScript
-* HTML
-* CSS
-* <a href="https://openweathermap.org/api">OpenWeatherMap API </a>
+
+- JavaScript
+- HTML
+- CSS
+- <a href="https://openweathermap.org/api">OpenWeatherMap API </a>
